@@ -1,0 +1,57 @@
+# Core TTS Libraries
+TTS==0.22.0  # Coqui TTS with XTTS-v2
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.35.0
+
+# Audio Processing
+librosa>=0.10.0
+soundfile>=0.12.0
+pydub>=0.25.0
+webrtcvad>=2.0.10
+noisereduce>=3.0.0
+pedalboard>=0.8.0
+
+# Vocoders
+vocos>=0.1.0
+
+# Quality Enhancement
+speechbrain>=1.0.0
+asteroid>=0.6.0
+demucs>=4.0.0
+
+# API & Web
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.0.0
+python-multipart>=0.0.6
+
+# Utilities
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pandas>=2.0.0
+pyyaml>=6.0
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+
+# Security & Auth
+cryptography>=41.0.0
+PyJWT>=2.8.0
+passlib>=1.7.4
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# Monitoring
+prometheus-client>=0.18.0
+
+# Audio recording
+sounddevice>=0.4.6
+
+# Optional but recommended
+pesq>=0.0.4
+pyloudnorm>=0.1.0
