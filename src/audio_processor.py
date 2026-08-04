@@ -8,7 +8,6 @@ import librosa
 import soundfile as sf
 import noisereduce as nr
 from scipy import signal
-import webrtcvad
 import logging
 from pathlib import Path
 from typing import Union, Tuple, Optional
@@ -24,7 +23,6 @@ class AudioProcessor:
     def __init__(self, settings):
         """Initialize audio processor with settings."""
         self.settings = settings
-        self.vad = webrtcvad.Vad(3)  # Aggressive VAD
         self.target_sr = settings.sample_rate
         self.target_db = -20.0  # Target RMS level in dB
         

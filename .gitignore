@@ -35,7 +35,7 @@ env/
 .env
 .env.local
 
-# Models (too large for git)
+# Models (downloaded to the HF cache, too large for git)
 models/
 *.pt
 *.pth
@@ -48,10 +48,11 @@ models/
 *.ogg
 *.flac
 
-# Data
+# Data (voices, cache and generated tracks stay local)
 data/recordings/
 data/voices/
-data/consent_forms/*.pdf
+data/cache/
+data/tracks/
 
 # Logs
 logs/
